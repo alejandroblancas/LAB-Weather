@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-image: url("https://wallpapers.com/images/featured-full/weather-xqhs9axpy8btfd3y.jpg");
+    background-size: cover; /* Hace que la imagen cubra todo el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen mientras el contenido se desplaza (opcional) */
+}
+.input-group {
+    width: 50%
+    max-width 35px;
+    background-color: #061a88;
+    color: #fff;
+    margin: 10px auto 0;
+    border: 10 px;
+    padding: 15px 10px;
+    text-align: center;
+}
+.btn-primary {
+    margin: 10px auto 0;
+    border: 10 px;
+    padding: 5px 5px
+}
+.result-box {
+    color: #fff;
+    margin: 10px auto 0;
+    border: 10 px;
+    padding: 15px 10px;
+    font-size: xx-large;
+}
+
+
